@@ -5,7 +5,7 @@
 				all management tasks around management and collection
 				of server informations
 
-	Date:		June 2018
+	Date:		June 20189
 
 	SQL Server Version: 2008 / 2012 / 2014 / 2016
 
