@@ -30,7 +30,43 @@ VALUES
 ('activate_activity_log', 'set the parameter to 1 to track messages in data.ActivityLog', N'1', NULL);
 GO
 
+-- Fill data.SQLServers with test data
+TRUNCATE TABLE data.SQLServers;
+GO
 
+INSERT	INTO data.SQLServers
+(
+	hostname,
+	instance,
+	systemtyp,
+	type,
+    alias,
+    description,
+    application,
+    application_contact,
+    application_contact_manual,
+    Ticket,
+    nagiosstate,
+    nagioslinkname,
+	AdminServer
+)
+SELECT
+        SL.hostname,
+        SL.instance,
+        SL.systemtyp,
+		SL.type,
+        SL.alias,
+        SL.description,
+        SL.application,
+        SL.application_contact,
+        SL.application_contact_manual,
+        SL.Ticket,
+        SL.nagiosstate,
+        SL.nagioslinkname,
+		AdmS.Id AS AdminServer
+FROM	dbo.[SQl-Server-Liste] AS SL
+		INNER JOIN data.AdminServers AS AdmS
+		ON (AdmS.DomainName = SL.domain);
 
 -- show the data
 SELECT * FROM system.Configurations;
