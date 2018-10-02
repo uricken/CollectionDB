@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CollectionDB">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="NB-LENOVO-I\SQL_2017:NB-LENOVO-I\Uwe">
+          <Created>2018-10-01T16:53:29.6620868+02:00</Created>
+          <Type>SQL</Type>
+          <Server>NB-LENOVO-I\SQL_2017</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>CollectionDB</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="0010 - Creation of database CollectionDB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0010 - Creation of database CollectionDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0020 - required schemas in CollectionDB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0020 - required schemas in CollectionDB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="0030 - DemoData for Tests.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>0030 - DemoData for Tests.sql</FullPath>
+        </FileNode>
+        <FileNode Name="function - system.GetParameterValue.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>function - system.GetParameterValue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="impl - create the publisher environment.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>impl - create the publisher environment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="proc - cms.CheckCentralManagementServer.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>proc - cms.CheckCentralManagementServer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="proc - system.WriteActivityLog.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>proc - system.WriteActivityLog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NB-LENOVO-I\SQL_2017:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NB-LENOVO-I\SQL_2017</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="table - data.ActivityLog.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>table - data.ActivityLog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="table - data.AdminServers.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>table - data.AdminServers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="table - data.ClassValues.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>table - data.ClassValues.sql</FullPath>
+        </FileNode>
+        <FileNode Name="table - data.SQLServers.sql.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>table - data.SQLServers.sql.sql</FullPath>
+        </FileNode>
+        <FileNode Name="table - system.Classes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>table - system.Classes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="table - system.configurations.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>table - system.configurations.sql</FullPath>
+        </FileNode>
+        <FileNode Name="view - system.CMSStructure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>view - system.CMSStructure.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="Collector Database.pptx">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Collector Database.pptx</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
