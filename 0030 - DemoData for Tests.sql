@@ -1,6 +1,6 @@
 -- Only for db Berater GmbH to fill example data into the tables
 -- the data are for test purposes only and are referring to the
--- infrastructure of db Berater GmbH
+-- infrastructure of db Berater GmbH-
 USE CollectionDB;
 GO
 
